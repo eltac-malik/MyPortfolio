@@ -1426,3 +1426,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 {
   width: 100%;
 }
+
+
+.timeline-list
+{
+  padding-top: 10px;
+}
