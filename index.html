@@ -1,584 +1,556 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Eltac Portfolio</title>
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <main>
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img src="./assets/images/pp.jpg" />
-          </figure>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eltac Portfolio</title>
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-          <div class="info-content">
-            <h1 class="name" title="Richard hanrick">Eltac Malik</h1>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/pp.jpg" />
+        </figure>
 
-            <p class="title">Front-end developer</p>
-          </div>
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Eltac Malik</h1>
 
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Front-end developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:eltacem@code.edu.az" class="contact-link"
-                  >eltacem@code.edu.az</a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+994508257515" class="contact-link"
-                  >+994508257515</a
-                >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-
-                <time>August 9, 2000</time>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-
-                <address>Azerbaijan/Baku</address>
-              </div>
-            </li>
-          </ul>
-
-          <div class="separator"></div>
-
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-
-      <div class="main-content">
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Certificates</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-          </ul>
-        </nav>
-
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-
-          <section class="about-text">
-            <p>
-              My name is Eltac. I am 22 years old. I studied Information
-              Technologies in Azerbaijan Technical University with bachelor
-              degree and currently I study Knowledge Acqustion in Azerbaijan
-              Technical University Master degree.I studied Code Academy on 2021.
-            </p>
-            <p>
-              I am Front-end Developer. I learned and practiced different
-              technologies and frameworks.
-            </p>
-          </section>
-
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
-
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
-
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level.
-                  </p>
-                </div>
-              </li>
-
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
-
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
-
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
-              </div>
-
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-                <time datetime="2021-06-14">14 June, 2021</time>
-
-                <div data-modal-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were
-                    very pleased with the work done. She has a lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum
-                    dolor sit amet, ullamcous cididt consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels
-                    dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </section>
-          </div>
-        </article>
-
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
-
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Experience</h3>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                 Cybernet LLC
-                </h4>
-                <span>Frontend Engineer</span>
-                <p class="timeline-text">2022 September - Present</p>
-              </li>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Algorithmics Global</h4>
-                <span>Frontend Instructor</span>
-                <p class="timeline-text">2022 September - Present</p>
-              </li>
+              <a href="mailto:eltacem@code.edu.az" class="contact-link">eltacem@code.edu.az</a>
+            </div>
+          </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  TuranBank OJSC
-                </h4>
-                <span>Frontend Developer</span>
-                <p class="timeline-text">2022 August - 2022 November</p>
-                <p class="timeline-text">My engagement duration : 4 months</p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Cubics Technology
-                </h4>
-                <span>Full Stack Javascript Developer</span>
-                <p class="timeline-text">2022 June - 2022 September</p>
-                <p class="timeline-text">My engagement duration : 4 months</p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Rubik Corner IT Consultant
-                </h4>
-                <span>Frontend Developer</span>
-                <p class="timeline-text">2021 December - 2022 May</p>
-                <p class="timeline-text">My engagement duration : 6 months</p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Freelancer (Upwork)
-                </h4>
-                <span>Frontend Developer</span>
-                <p class="timeline-text">2020 January - 2022 September</p>
-                <p class="timeline-text">My engagement duration : 9 months</p>
-              </li>
-            </ol>
-          </section>
-
-          
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Azerbaijan Technical University
-                </h4>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-                <span>2021-2023</span>
+              <a href="tel:+994508257515" class="contact-link">+994508257515</a>
+            </div>
+          </li>
 
-                <p class="timeline-text">Master Degree : Knowledge Acqustion</p>
-              </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Code Academy</h4>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-                <span>2019-2020</span>
+              <time>August 9, 2000</time>
+            </div>
+          </li>
 
-                <p class="timeline-text">Software Development</p>
-              </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Azerbaijan Technical University
-                </h4>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-                <span>2017-2021</span>
+              <address>Azerbaijan/Baku</address>
+            </div>
+          </li>
+        </ul>
 
-                <p class="timeline-text">
-                  Bachelor Degree : Information Technologies
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            My name is Eltac. I am 22 years old. I studied Information
+            Technologies in Azerbaijan Technical University with bachelor
+            degree and currently I study Knowledge Acqustion in Azerbaijan
+            Technical University Master degree.I studied Code Academy on 2021.
+          </p>
+          <p>
+            I am Front-end Developer. I learned and practiced different
+            technologies and frameworks.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
                 </p>
-              </li>
-            </ol>
-          </section>
+              </div>
+            </li>
 
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
 
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
 
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a
+                  professional level.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Html</h5>
-                  <data value="90">90%</data>
-                </div>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Css</h5>
-                  <data value="90">90%</data>
-                </div>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Javascript</h5>
-                  <data value="90">90%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">React</h5>
-                  <data value="90">90%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Redux (Redux Toolkit)</h5>
-                  <data value="85">85%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 85%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Context</h5>
-                  <data value="90">90%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Bootstrap, Tailwind , Material Chakra</h5>
-                  <data value="85">85%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 85%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Git version control</h5>
-                  <data value="80">80%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
-
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
-
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn>Web design</button>
-              </li>
-
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
-              </ul>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
             </div>
 
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
-                    <img
-                      src="./assets/images/Pizza-order.png"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
+              <time datetime="2021-06-14">14 June, 2021</time>
 
-                  <h3 class="project-title">Pizza Order</h3>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
 
-                  <p class="project-category">Web development</p>
-                </a>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Cybernet LLC
+              </h4>
+              <span>Frontend Engineer</span>
+              <p class="timeline-text">2022 September - Present</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Algorithmics Global</h4>
+              <span>Frontend Instructor</span>
+              <p class="timeline-text">2022 September - Present</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                TuranBank OJSC
+              </h4>
+              <span>Frontend Developer</span>
+              <p class="timeline-text">2022 August - 2022 November</p>
+              <p class="timeline-text">My engagement duration : 4 months</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Cubics Technology
+              </h4>
+              <span>Full Stack Javascript Developer</span>
+              <p class="timeline-text">2022 June - 2022 November</p>
+              <p class="timeline-text">My engagement duration : 5 months</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Rubik Corner IT Consultant
+              </h4>
+              <span>Frontend Developer</span>
+              <p class="timeline-text">2021 December - 2022 July</p>
+              <p class="timeline-text">My engagement duration : 8 months</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Freelancer (Upwork)
+              </h4>
+              <span>Frontend Developer</span>
+              <p class="timeline-text">2020 January - 2022 September</p>
+              <p class="timeline-text">My engagement duration : 9 months</p>
+            </li>
+          </ol>
+        </section>
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Azerbaijan Technical University
+              </h4>
+
+              <span>2021-2023</span>
+
+              <p class="timeline-text">Master Degree : Knowledge Acqustion</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Code Academy</h4>
+
+              <span>2019-2020</span>
+
+              <p class="timeline-text">Software Development</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Azerbaijan Technical University
+              </h4>
+
+              <span>2017-2021</span>
+
+              <p class="timeline-text">
+                Bachelor Degree : Information Technologies
+              </p>
+            </li>
+          </ol>
+        </section>
+
+
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Typescript</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Redux (Redux Toolkit)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Html</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Css</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Context</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap, Tailwind , Material Chakra</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git version control</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React Query</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/bacola.png"
-                      alt="orizon"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Bacola e-commerce</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
               </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            </ul>
+          </div>
 
-                    <img
-                      src="./assets/images/carrent.png"
-                      alt="orizon"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Car Rent Baku</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-              <li
-              class="project-item active"
-              data-filter-item
-              data-category="web development"
-            >
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
               <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img
-                    src="./assets/images/gamboo.png"
-                    alt="orizon"
-                    loading="lazy"
-                  />
+                  <img src="./assets/images/Pizza-order.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Pizza Order</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bacola.png" alt="orizon" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Bacola e-commerce</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/carrent.png" alt="orizon" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Car Rent Baku</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gamboo.png" alt="orizon" loading="lazy" />
                 </figure>
 
                 <h3 class="project-title">Basic Admin Panel</h3>
@@ -586,174 +558,209 @@
                 <p class="project-category">Web development</p>
               </a>
             </li>
-            </ul>
-          </section>
-        </article>
+          </ul>
+        </section>
+      </article>
 
-        <article class="blog" data-page="certificates">
-          <header>
-            <h2 class="h2 article-title">Certificates</h2>
-          </header>
+      <article class="blog" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
 
-          <section class="blog-posts">
-            <ul class="blog-posts-list">
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/Udemy-Logo.jpg"
-                      alt="Best fonts every designer"
-                      loading="lazy"
-                    />
-                  </figure>
+          <ul class="skills-list content-card">
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Web Development</p>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="90">90%</data>
+              </div>
 
-                      <span class="dot"></span>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
 
-                      <time datetime="2022-02-23">Aug 1, 2021</time>
-                    </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Typescript</h5>
+                <data value="80">80%</data>
+              </div>
 
-                    <h3 class="h3 blog-item-title">
-                      React - The Complete Guide (Hooks, React Router, Redux Toolkit)
-                    </h3>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
 
-                  </div>
-                </a>
-              </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="90">90%</data>
+              </div>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="https://www.tehsil.biz/uploads/images/FB_IMG_1629192943670.jpg"
-                      loading="lazy"
-                    />
-                  </figure>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Web Development</p>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Redux (Redux Toolkit)</h5>
+                <data value="85">85%</data>
+              </div>
 
-                      <span class="dot"></span>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React Query</h5>
+                <data value="80">90%</data>
+              </div>
+            
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
 
-                      <time datetime="2022-02-23">2017-2021</time>
-                    </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Html</h5>
+                <data value="90">90%</data>
+              </div>
 
-                    <h3 class="h3 blog-item-title">
-                      Information Technologies Bachelor Degree
-                    </h3>
-                  </div>
-                </a>
-              </li>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Css</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Scss , Sass , Less</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Context</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap, Tailwind</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Material UI, Chakra UI</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git version control</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bitbucket</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <ul class="socials">
+            <li class="social">
+              <a href="https://www.linkedin.com/in/eltac-malik-107941200/">
+                <div class="link-img">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+                    alt="">
+                </div>
+                <h1>Eltac Malik</h1>
+              </a>
+            </li>
+            <li class="social">
+              <a href="#">
+                <div class="link-img">
+                  <img src="https://toppng.com/uploads/preview/mail-logo-gmail-logo-2018-11562993752ysgnopnnhx.png"
+                    alt="">
+                </div>
+                <h1>eltacem@code.edu.az</h1>
+              </a>
+            </li>
+            <li class="social">
+              <a href="https://github.com/eltac-malik">
+                <div class="link-img">
+                  <img src="https://www.kindpng.com/picc/m/128-1280192_github-logo-png-github-png-transparent-png.png"
+                    alt="">
+                </div>
+                <h1>eltac-malik</h1>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
 
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/Udemy-Logo.jpg"
-                      loading="lazy"
-                    />
-                  </figure>
+    </div>
+  </main>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Web Development</p>
+  <script src="./assets/js/script.js"></script>
 
-                      <span class="dot"></span>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 
-                      <time datetime="2022-02-23">Fab 23, 2021</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      Modern Web Geliştirme Kursu | Sıfırdan Sektörün Yükseklerine
-                    </h3>
-                  </div>
-                </a>
-              </li>
-
-
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="data:image/png;base64,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"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Web Development</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2022-02-23">2019-2020</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      Software Development
-                    </h3>
-                  </div>
-                </a>
-              </li>
-
-
-            </ul>
-          </section>
-        </article>
-
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
-
-          <section class="contact-form">
-
-            <ul class="socials">
-              <li class="social">
-                <a href="https://www.linkedin.com/in/eltac-malik-107941200/">
-                  <div class="link-img">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="">
-                  </div>
-                  <h1>Eltac Malik</h1>
-                </a>
-              </li>
-              <li class="social">
-                <a href="#">
-                  <div class="link-img">
-                    <img src="https://toppng.com/uploads/preview/mail-logo-gmail-logo-2018-11562993752ysgnopnnhx.png" alt="">
-                  </div>
-                  <h1>eltacem@code.edu.az</h1>
-                </a>
-              </li>
-              <li class="social">
-                <a href="https://github.com/eltac-malik">
-                  <div class="link-img">
-                    <img src="https://www.kindpng.com/picc/m/128-1280192_github-logo-png-github-png-transparent-png.png" alt="">
-                  </div>
-                  <h1>eltac-malik</h1>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </div>
-    </main>
-
-    <script src="./assets/js/script.js"></script>
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
 </html>
